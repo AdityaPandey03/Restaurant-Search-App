@@ -1,8 +1,10 @@
 import { createStackNavigator , createAppContainer } from 'react-navigation';
 import SearchScreen from './src/Screens/SearchScreen';
+import ResultsShowScreen from './src/Screens/ResultsShowScreen';
 
 const navigator= createStackNavigator({
-  Search : SearchScreen
+  Search : SearchScreen,
+  ResultsShow: ResultsShowScreen
 
 },{
   initialRouteName: 'Search',
